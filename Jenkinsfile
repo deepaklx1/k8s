@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                git "https://github.com/deepaklx1/k8s.git"
+                git 'https://github.com/deepaklx1/k8s.git'
             }
         }
         stage('build') {
